@@ -2,11 +2,14 @@ import AbstractFactoryPattern.Computer;
 import AbstractFactoryPattern.Factory.ComputerFactory;
 import AbstractFactoryPattern.Factory.PCFactory;
 import AbstractFactoryPattern.Factory.ServerFactory;
+import AdapterPattern.IPhone14toIPhone16Adapter;
+import AdapterPattern.IPhone16;
 import BuilderPattern.Laptop;
 import DecoratorPattern.BasicCar;
 import DecoratorPattern.Car;
 import DecoratorPattern.LuxuryCar;
 import DecoratorPattern.SportsCar;
+import FacadePattern.HelperFacade;
 import ObservablePattern.Observable.AndroidObservableImpl;
 import ObservablePattern.Observable.IphoneObservableImpl;
 import ObservablePattern.Observable.StocksObservable;
@@ -25,6 +28,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Call the test methods
+        testFacadePattern();
     }
 
     public static void testStrategyPattern() {
@@ -86,5 +90,17 @@ public class Main {
                 .setGraphicsCardEnabled(false)
                 .build();
         System.out.println("cpu = " + laptop.getCPU() + ", hdd = " + laptop.getHDD() + ", ram = " + laptop.getRAM() + ", isGraphicsCardEnabled = " + laptop.isGraphicsCardEnabled() + ", isBluetoothEnabled = " + laptop.isBluetoothEnabled());
+    }
+
+    public static void testAdapterPattern() {
+        IPhone16 iPhone16 = new IPhone16(new IPhone14toIPhone16Adapter());
+        iPhone16.onCharge();
+    }
+
+    public static void testFacadePattern() {
+        String tableName="Employee";
+        /* using the facade helper reduces complexity and amount of code at the client side */
+        HelperFacade.generateReport(HelperFacade.DBTypes.MYSQL, HelperFacade.ReportTypes.HTML, tableName);
+        HelperFacade.generateReport(HelperFacade.DBTypes.ORACLE, HelperFacade.ReportTypes.PDF, tableName);
     }
 }
