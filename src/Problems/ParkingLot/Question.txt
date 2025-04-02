@@ -1,0 +1,9 @@
+Q. Design a Parking Lot System
+
+Requirements:
+-> The parking lot should consist of multiple levels, each containing a designated number of parking spots.
+-> It should accommodate various vehicle types, including cars, motorcycles, and trucks.
+-> Each parking spot should be designated for a specific type of vehicle.
+-> The system should assign an available parking spot to a vehicle upon entry and release it upon exit.
+-> It should track parking spot availability and provide real-time updates to customers.
+-> The system should support multiple entry and exit points while allowing concurrent access.

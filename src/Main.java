@@ -1,34 +1,34 @@
-import AbstractFactoryPattern.Computer;
-import AbstractFactoryPattern.Factory.ComputerFactory;
-import AbstractFactoryPattern.Factory.PCFactory;
-import AbstractFactoryPattern.Factory.ServerFactory;
-import AdapterPattern.IPhone14toIPhone16Adapter;
-import AdapterPattern.IPhone16;
-import BuilderPattern.Laptop;
-import DecoratorPattern.BasicCar;
-import DecoratorPattern.Car;
-import DecoratorPattern.LuxuryCar;
-import DecoratorPattern.SportsCar;
-import FacadePattern.HelperFacade;
-import ObservablePattern.Observable.AndroidObservableImpl;
-import ObservablePattern.Observable.IphoneObservableImpl;
-import ObservablePattern.Observable.StocksObservable;
-import ObservablePattern.Observer.EmailAlertObserverImpl;
-import ObservablePattern.Observer.MobileAlertObserverImpl;
-import ObservablePattern.Observer.NotificationAlertObserver;
-import StatePattern.TVContext;
-import StatePattern.TVStartState;
-import StatePattern.TVStopState;
-import StrategyPattern.Item;
-import StrategyPattern.ShoppingCart;
-import StrategyPattern.Strategy.CreditCardStrategy;
-import StrategyPattern.Strategy.PaypalStrategy;
+import DesignPatterns.AbstractFactoryPattern.Computer;
+import DesignPatterns.AbstractFactoryPattern.Factory.ComputerFactory;
+import DesignPatterns.AbstractFactoryPattern.Factory.PCFactory;
+import DesignPatterns.AbstractFactoryPattern.Factory.ServerFactory;
+import DesignPatterns.AdapterPattern.IPhone14toIPhone16Adapter;
+import DesignPatterns.AdapterPattern.IPhone16;
+import DesignPatterns.BuilderPattern.Laptop;
+import DesignPatterns.DecoratorPattern.BasicCar;
+import DesignPatterns.DecoratorPattern.Car;
+import DesignPatterns.DecoratorPattern.LuxuryCar;
+import DesignPatterns.DecoratorPattern.SportsCar;
+import DesignPatterns.FacadePattern.HelperFacade;
+import DesignPatterns.ObservablePattern.Observable.AndroidObservableImpl;
+import DesignPatterns.ObservablePattern.Observable.IphoneObservableImpl;
+import DesignPatterns.ObservablePattern.Observable.StocksObservable;
+import DesignPatterns.ObservablePattern.Observer.EmailAlertObserverImpl;
+import DesignPatterns.ObservablePattern.Observer.MobileAlertObserverImpl;
+import DesignPatterns.ObservablePattern.Observer.NotificationAlertObserver;
+import DesignPatterns.StatePattern.TVContext;
+import DesignPatterns.StatePattern.TVStartState;
+import DesignPatterns.StatePattern.TVStopState;
+import DesignPatterns.StrategyPattern.Item;
+import DesignPatterns.StrategyPattern.ShoppingCart;
+import DesignPatterns.StrategyPattern.Strategy.CreditCardStrategy;
+import DesignPatterns.StrategyPattern.Strategy.PaypalStrategy;
 
 public class Main {
 
     public static void main(String[] args) {
         // Call the test methods
-        testFacadePattern();
+        testDecoratorPattern();
     }
 
     public static void testStrategyPattern() {
