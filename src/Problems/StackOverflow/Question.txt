@@ -1,0 +1,10 @@
+Designing Stack Overflow
+
+Requirements:
+
+-> Users can create questions, submit answers, and add comments to both.
+-> Voting is enabled on questions and answers to highlight useful content.
+-> Each question can be tagged with relevant topics for better organization.
+-> Users can search for questions by keywords, tags, or author profiles.
+-> A reputation score is maintained for each user based on their activity and contribution quality.
+-> The system should support concurrent access while ensuring data consistency.
