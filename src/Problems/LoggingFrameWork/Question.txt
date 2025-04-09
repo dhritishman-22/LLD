@@ -1,0 +1,8 @@
+Requirements:
+
+-> The logging framework should support various log levels including DEBUG, INFO, WARNING, ERROR, and FATAL.
+-> It must log messages with a timestamp, severity level, and the actual message content.
+-> The framework should be capable of directing logs to multiple destinations such as the console, files, or databases.
+-> It should include a configurable setup to define the minimum log level and preferred output destination.
+-> To ensure reliability in multithreaded environments, the framework must be thread-safe.
+-> Additionally, it should be designed to be easily extensible, allowing for the addition of new log levels or output targets in the future.
