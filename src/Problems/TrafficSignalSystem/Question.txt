@@ -1,0 +1,8 @@
+Requirements:
+
+-> The traffic signal system should efficiently manage vehicle flow at multi-road intersections.
+-> It must support standard signal types—red, yellow, and green—with clearly defined transitions.
+-> Signal durations should be configurable and dynamically adjustable based on real-time traffic conditions.
+-> Transitions between signals should be smooth and safe to maintain continuous traffic movement.
+-> The system should be capable of detecting emergency vehicles (e.g., ambulances, fire trucks) and adjusting signals to give them priority.
+-> It should be scalable and extensible, allowing integration of future enhancements and intelligent traffic management features.
