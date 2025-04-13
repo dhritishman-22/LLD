@@ -12,7 +12,7 @@ public class TrafficController {
 
     public static synchronized TrafficController getInstance() {
         if (instance == null) {
-            return new TrafficController();
+            instance = new TrafficController();
         }
         return instance;
     }
