@@ -1,0 +1,9 @@
+Requirements:
+
+-> The task management system should enable users to create, update, and delete tasks.
+-> Each task should include a title, description, due date, priority level, and status (e.g., pending, in progress, completed).
+-> Users should be able to assign tasks to others and set reminders for important deadlines.
+-> The system should support searching and filtering tasks by criteria such as priority, due date, and assigned user.
+-> Users should be able to mark tasks as completed and access their task history.
+-> It should support concurrent access while maintaining data consistency across operations.
+-> The system should be designed for extensibility to support future enhancements and new features.
