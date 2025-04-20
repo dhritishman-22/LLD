@@ -1,0 +1,8 @@
+Requirements
+
+-> The ATM system must support core functionalities, including balance inquiry, cash withdrawal, and cash deposit.
+-> Users should be able to authenticate securely using a card and their PIN (Personal Identification Number).
+-> The ATM should integrate with the bank’s backend system to validate user accounts and process transactions in real-time.
+-> A cash dispenser must be included to dispense money accurately and reliably.
+-> The system should be designed to handle concurrent access while ensuring data integrity and consistency.
+-> A user-friendly interface should guide users through all operations with clarity and ease of use.
