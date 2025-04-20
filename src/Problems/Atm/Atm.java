@@ -26,6 +26,7 @@ public class Atm {
             System.out.println("Error: Insufficient balance.");
             return;
         }
+        // Command pattern
         Transaction transaction = new WithdrawalTransaction(UUID.randomUUID().toString(), account, amount);
         bankingService.processTransaction(transaction);
         cashDispenser.dispenseCash((int) amount);
